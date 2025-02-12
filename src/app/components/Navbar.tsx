@@ -9,9 +9,9 @@ const Navbar = () => {
         </Link>
 
         <div className="flex items-center gap-5">
-          <Link href="/">Pricing</Link>
-          <Link href="/">Gallery</Link>
-          <Link href="/">Login</Link>
+          <Link href="/pricing">Pricing</Link>
+          <Link href="/gallery">Gallery</Link>
+          <Link href="/booking">Booking</Link>
         </div>
       </nav>
     </header>
