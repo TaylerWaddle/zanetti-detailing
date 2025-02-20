@@ -1,7 +1,5 @@
-import React from "react";
-
-const page = () => {
+const Booking = () => {
   return <div>Booking Page</div>;
 };
 
-export default page;
+export default Booking;

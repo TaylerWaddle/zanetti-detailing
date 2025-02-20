@@ -1,7 +1,7 @@
 import React from "react";
 
-const page = () => {
+const Services = () => {
   return <div>Pricing Page</div>;
 };
 
-export default page;
+export default Services;
