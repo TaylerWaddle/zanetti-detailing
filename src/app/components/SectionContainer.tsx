@@ -11,7 +11,7 @@ export default function SectionContainer({
 }: SectionContainerProps) {
   return (
     <section
-      className={`w-full max-w-screen-xl mx-auto px-6 md:px-12 lg:px-16 py-12 ${className}`}
+      className={`w-full max-w-screen-2xl mx-auto px-6 md:px-12 lg:px-16 py-12 ${className}`}
     >
       {children}
     </section>

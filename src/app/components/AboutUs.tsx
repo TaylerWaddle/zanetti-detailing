@@ -5,8 +5,8 @@ import SectionContainer from "@/app/components/SectionContainer";
 const AboutUs = () => {
   return (
     <SectionContainer>
-      <div className="w-full h-fit bg-grey1 flex flex-col lg:flex-row justify-between items-center lg:px-64 px-8 pt-32 space-x-24">
-        <div className="h-full">
+      <div className="bg-grey1 flex flex-col-reverse xl:flex-row justify-between items-center ">
+        <div className="h-full xl:px-16 md:px-12">
           <h1 className="text-white text-[40px] font-bold tracking-1 my-5">
             About Us
           </h1>
@@ -29,7 +29,7 @@ const AboutUs = () => {
           <Image
             src={Zanetti500x500}
             alt="zanetti500x500"
-            className="max-h-[500px] max-w-[500px] rounded-lg"
+            className="min-h-[250px] min-w-[250px] rounded-lg"
           />
         </div>
       </div>
