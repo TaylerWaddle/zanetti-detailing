@@ -9,7 +9,7 @@ const Hero = () => {
         {/* <div className="relative p-6"> */}
         <Button
           asChild
-          className="absolute bottom-28 sm:right-36 w-[200] h-[64px] text-[24px]  bg-gold"
+          className="absolute bottom-28 md:right-36 w-[200] h-[64px] text-[24px]  bg-gold"
         >
           <Link href="/booking">Book Now</Link>
         </Button>
