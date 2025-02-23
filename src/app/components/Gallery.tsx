@@ -17,46 +17,54 @@ import SectionContainer from "./SectionContainer";
 const Gallery = () => {
   return (
     <SectionContainer>
-      <div className="w-full h-fit pt-32 px-64 bg-grey1">
-        <header className="flex items-center justify-center text-white text-[40px] font-bold tracking-1 mb-8">
+      <div className="bg-grey1">
+        <header className="flex items-center justify-center text-white text-[40px] font-bold tracking-1 pb-8">
           Gallery
         </header>
-        <div className="w-full">
+        {/* <div className="w-full px-10 sm:px-6"> */}
+        <div className="w-full px-6 sm:px-6">
           <Carousel>
             <CarouselContent>
-              <CarouselItem className="basis-1/3">
+              <CarouselItem className="xl:basis-1/3 lg:basis-1/2">
                 <Image
                   src={GalleryPhoto1}
                   alt="car"
-                  className="w-full h-full rounded-lg"
+                  className="w-full h-auto rounded-lg"
                 />
               </CarouselItem>
-              <CarouselItem className="basis-1/3">
+              <CarouselItem className="xl:basis-1/3 lg:basis-1/2">
                 <Image
                   src={GalleryPhoto2}
                   alt="car"
-                  className="w-full h-full rounded-lg"
+                  className="w-full h-auto rounded-lg"
                 />
               </CarouselItem>
-              <CarouselItem className="basis-1/3">
+              <CarouselItem className="xl:basis-1/3 lg:basis-1/2">
                 <Image
                   src={GalleryPhoto3}
                   alt="car"
-                  className="w-full h-full rounded-lg"
+                  className="w-full h-auto rounded-lg"
                 />
               </CarouselItem>
-              <CarouselItem className="basis-1/3">
+              <CarouselItem className="xl:basis-1/3 lg:basis-1/2">
                 <Image
                   src={GalleryPhoto4}
                   alt="car"
-                  className="w-full h-full rounded-lg"
+                  className="w-full h-auto rounded-lg"
                 />
               </CarouselItem>
-              <CarouselItem className="basis-1/3">
+              <CarouselItem className="xl:basis-1/3 lg:basis-1/2">
                 <Image
                   src={GalleryPhoto5}
                   alt="car"
-                  className="w-full h-full rounded-lg"
+                  className="w-full h-auto rounded-lg"
+                />
+              </CarouselItem>
+              <CarouselItem className="xl:basis-1/3 lg:basis-1/2">
+                <Image
+                  src={GalleryPhoto5}
+                  alt="car"
+                  className="w-full h-auto rounded-lg"
                 />
               </CarouselItem>
             </CarouselContent>
