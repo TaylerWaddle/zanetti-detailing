@@ -12,6 +12,7 @@ export default {
     extend: {
       colors: {
         grey1: "#262626",
+        grey2: "#333333",
         gold: "#E3A600",
         purple: "#7783E3",
         background: "hsl(var(--background))",
