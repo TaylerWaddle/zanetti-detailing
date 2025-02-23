@@ -5,15 +5,15 @@ import SectionContainer from "./SectionContainer";
 const WorkArea = () => {
   return (
     <SectionContainer>
-      <div className="w-full h-fit pt-32 px-64 bg-grey1 ">
-        <div className="flex justify-between px-16 bg-zinc-700 rounded">
-          <header className="flex items-center justify-center text-white text-[40px] font-bold tracking-1 mb-8">
-            Service Area
-          </header>
+      <div className="bg-grey1 lg:flex justify-between">
+        <header className="flex items-center justify-center text-white text-[40px] font-bold tracking-1 mb-8">
+          Service Area
+        </header>
+        <div className="bg-purple flex justify-center items-center">
           <Image
             src={DenverMap}
             alt="service-map"
-            className="max-h-[500px] max-w-[500px] rounded-full"
+            className="min-h-[250px] min-w-[250px] max-h-[500px] max-w-[500px] rounded-full"
           />
         </div>
       </div>
