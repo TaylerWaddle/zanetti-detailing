@@ -13,6 +13,7 @@ export default {
       colors: {
         grey1: "#262626",
         gold: "#E3A600",
+        purple: "#7783E3",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
