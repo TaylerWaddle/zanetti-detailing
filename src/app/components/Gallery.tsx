@@ -7,11 +7,11 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/image";
 
-import GalleryPhoto1 from "../../../../../public/lambo-gallery.jpeg";
-import GalleryPhoto2 from "../../../../../public/bmw-gallery.jpg";
-import GalleryPhoto3 from "../../../../../public/mustang-new-gallery.jpg";
-import GalleryPhoto4 from "../../../../../public/mustang-old-gallery.jpeg";
-import GalleryPhoto5 from "../../../../../public/porche-gallery.jpg";
+import GalleryPhoto1 from "../../../public/lambo-gallery.jpeg";
+import GalleryPhoto2 from "../../../public/bmw-gallery.jpg";
+import GalleryPhoto3 from "../../../public/mustang-new-gallery.jpg";
+import GalleryPhoto4 from "../../../public/mustang-old-gallery.jpeg";
+import GalleryPhoto5 from "../../../public/porche-gallery.jpg";
 
 const Gallery = () => {
   return (

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import DenverMap from "../../../../../public/denver-metro-map.jpg";
+import DenverMap from "../../../public/denver-metro-map.jpg";
 
 const WorkArea = () => {
   return (

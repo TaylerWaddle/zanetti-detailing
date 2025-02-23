@@ -17,7 +17,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   const navItems: NavItem[] = [
-    { name: "Home", href: "/home" },
+    { name: "Home", href: "/" },
     { name: "Booking", href: "/booking" },
     { name: "Services", href: "/services" },
     { name: "Portfolio", href: "/portfolio" },
@@ -26,11 +26,7 @@ const Navbar = () => {
   return (
     <nav className="bg-grey1 shadow-sm">
       <div className="flex justify-between items-center max-w-screen-2xl mx-auto p-4">
-        <Link
-          href="/home"
-          className="text-white"
-          onClick={() => setIsOpen(false)}
-        >
+        <Link href="/" className="text-white" onClick={() => setIsOpen(false)}>
           <Image src={ZanettiNavLogo} alt="zanetti logo" />
         </Link>
 
@@ -76,7 +72,7 @@ const Navbar = () => {
                       ? "text-purple"
                       : "hover:text-gray-400"
                   }`}
-                  onClick={() => setIsOpen(false)} // Close menu on click
+                  onClick={() => setIsOpen(false)}
                 >
                   {item.name}
                 </Link>
