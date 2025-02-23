@@ -1,6 +1,6 @@
 import Hero from "./components/Hero";
 import AboutUs from "./components/AboutUs";
-// import Testimonials from "./components/Testimonials";
+import Testimonials from "./components/Testimonials";
 // import Gallery from "./components/Gallery";
 // import WorkArea from "./components/WorkArea";
 
@@ -9,8 +9,8 @@ export default function Home() {
     <div className="h-screen">
       <Hero />
       <AboutUs />
-      {/* <Testimonials />
-      <Gallery />
+      <Testimonials />
+      {/* <Gallery />
       <WorkArea /> */}
     </div>
   );
